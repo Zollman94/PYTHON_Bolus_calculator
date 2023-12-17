@@ -86,6 +86,7 @@ def reset():
 root = tk.Tk()
 root.title("Bolus Calculator")
 root.geometry("350x200")
+root.resizable(width=False, height=False)
 
 # Entry fields
 
